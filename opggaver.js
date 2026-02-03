@@ -54,3 +54,13 @@ const adr = "Frederiksberg"
 
 const besked = `mit navn er ${navn}, og jeg er ${alder} år gammel. Jeg bor på ${adr}`;
 console.log(besked)
+
+/*********Ekstraopgave********/
+
+students.forEach(student => {
+
+    let studentDiv = document.createElement("div");
+    studentDiv.classList.add("studenter")
+    studentDiv.textContent = `${student.navn}, Alder: ${student.age}, uddannelse: ${student.course}`;
+    studentList.appendChild(studentDiv)
+})
