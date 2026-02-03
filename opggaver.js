@@ -48,7 +48,6 @@ students.forEach(function (student) {
     studentList.append(studentDiv)
 })
 /***********lille eksempel ******** */
-
 const navn = "Kalle";
 const alder = 900
 const adr = "Frederiksberg"
